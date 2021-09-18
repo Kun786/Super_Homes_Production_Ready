@@ -1,0 +1,62 @@
+.cardBox {
+    width: 350px;
+    height: 470px !important;
+    padding: 3px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+    transition: all .5s ease-in;
+    box-sizing: border-box;
+    border-radius: 0px !important;
+    overflow: hidden;
+}
+
+.cardBox:hover {
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.cardBox img {
+    width: 100%;
+    height: auto;
+}
+
+.cardBox .content {
+    padding: 10px;
+}
+
+.cardBox p {
+    font-size: 11px;
+    margin: 0;
+}
+.btn-outline-dark{
+    border-radius: 0px !important;
+}
+.cardBox ul {
+    list-style: none;
+    text-align: center;
+}
+
+.cardBox ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.cardBox i {
+    cursor: pointer;
+}
+
+.cardBox h6 {
+    margin: 0;
+}
+
+.feature {
+    top: 5px;
+    left: 4px;
+    background: #ff0000;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+    border-radius: 0px;
+}
